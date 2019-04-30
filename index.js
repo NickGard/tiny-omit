@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.omit=function(e){var r={},t=arguments,o=Array.isArray(t[1])?t[1]:Array.prototype.slice.call(t,1);if(o=o.map(String),e&&"object"==typeof e)for(var a=Object.keys(e),i=0;i<a.length;i++)-1==o.indexOf(a[i])&&(r[a[i]]=e[a[i]]);return r};
